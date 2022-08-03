@@ -32,14 +32,14 @@ class App extends Component {
           ;
 
         } else {
-          if (this.state.result[this.state.result.length-1].match('([+*/-])+')){
+          if (this.state.result.toString().match("([+/*-])+")){
             if(this.state.num2===0){  
               this.setState({
                   result:this.state.result+value,
                   num2:value
+
                   
                 })
-                console.log("line 36 is equated to true")
               }
             else{
               this.setState({num2:this.state.num2+value, result:this.state.result+value})
@@ -64,7 +64,6 @@ class App extends Component {
         console.log(this.state.result[this.state.result.length-1])
         if (this.state.result[this.state.result.length-1].match('([+-/*])+')){
           this.setState({result:this.state.result, sign:value})
-          console.log("it matches")
         }
         else{
           this.setState({result:this.state.result+value, sign:value})
@@ -112,21 +111,15 @@ class App extends Component {
             break;
         case '.':
           if (this.state.result.toString().match("([+/*-])+")){
-            console.log("i found a match")
             this.setState({result: !this.state.num2.toString().includes(".")?this.state.result+value:this.state.result, num2:this.state.num2+value})
-            console.log("this.state in 2nd number", this.state)
             // console.log(this.state.num)
           }
           else{
-            console.log(this.state)
-            console.log(value)
             this.setState({result: !this.state.num.toString().includes(".")?this.state.result+value:this.state.result, num:this.state.num+value})
-            console.log(this.state, "This. state in 1st number")
           }
             
           break;
         case '+-':
-          console.log("i am here")
           break;
         default:
         break;

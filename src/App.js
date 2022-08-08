@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import React, {Component} from 'react';
+// import React, {Component} from 'react';
 import Buttons from './components/buttons'
 // import {Button} from 'react-native';
 import './App.css';
 import Result from './components/result';
-var mexp = require('math-expression-evaluator');
 
 class App extends Component {
   constructor(props){

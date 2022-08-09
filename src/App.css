@@ -40,8 +40,6 @@
 }
 .button{
   padding:15px;
-  border:2px solid ridge;
-  border-color:azure;
 }
 .btn {
   width:70px;
@@ -66,6 +64,7 @@
   text-align:right;
   background-color:#484545;
   padding:10px;
+  margin-bottom:10px;
   margin-left:15px;
   margin-top:10px;
 }

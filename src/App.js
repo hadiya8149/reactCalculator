@@ -1,4 +1,4 @@
-// import React, {Component} from 'react';
+import  {Component} from 'react';
 import Buttons from './components/buttons'
 // import {Button} from 'react-native';
 import './App.css';

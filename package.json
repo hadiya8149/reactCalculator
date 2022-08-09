@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Erooro: no teste specified\" && exit 1",
     "eject": "react-scripts eject"

@@ -1,17 +1,15 @@
 .App {
   text-align: center;
 }
+html, body{
+  height:100%;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -30,11 +28,13 @@
 .calc{
   
   position:absolute;
-  top:20%;
-  left:35%;
-  overflow-y:auto;
+  top:50%;
+  left:50%;
+  margin: 0 auto;
+
   width:320px;
   height:390px;
+  transform: translate(-50%, -50%);
   background-color:#e19a5d;
 
 }

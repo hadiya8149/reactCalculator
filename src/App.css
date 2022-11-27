@@ -35,7 +35,7 @@ html, body{
   width:320px;
   height:390px;
   transform: translate(-50%, -50%);
-  background-color:#d9b799;
+  background-color:#bfbfbf;
 
 }
 .button{
@@ -46,7 +46,7 @@ html, body{
   height: 50px;
   float:left;
   margin:1px;
-  background-color:#f7e1cd;
+  background-color:#fff;
   color:black;
   border:none;
 }
@@ -64,7 +64,7 @@ html, body{
   color: black;
   border-radius:8px;
   text-align:right;
-  background-color:#f7e1cd;
+  background-color:#fff;
   padding:10px;
   margin-bottom:10px;
   margin-left:15px;
